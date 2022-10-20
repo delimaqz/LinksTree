@@ -1,5 +1,5 @@
 ## 🛡️| Desafio Social Tree
-![preview](./layout.svg)
+![preview](.github/layout.svg)
 [🔗 Clique aqui para acessar o figma](https://www.figma.com/file/4uikFH0k8XqKuMyNt7nXX2/DD-%2F-Social-links-(Copy)?node-id=120%3A19)
 > Discover
 #

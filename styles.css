@@ -19,6 +19,10 @@ header div{
     background-color: antiquewhite;
 }
 
+#imgli:hover{
+    transform: scale(1.1);
+}
+
 .img_bortoli img{
     margin-top: 10px;
     width: 200px;
