@@ -1,22 +1,22 @@
-const element = document.querySelector("body")
-element.addEventListener('click', changeBackground)
+const image = document.querySelector('#image')
+image.addEventListener('click', changeBackground)
 
 function changeBackground(){
-   element.classList.toggle('active')
+   document.body.classList.toggle('active')
 }
 
-let image = document.querySelector("#image")
-image.addEventListener('click', changeImage)
+let newImage = document.querySelector("#image")
+newImage.addEventListener('click', changeImage)
 let changedImg = true
 
 function changeImage(){
-   image.classList.toggle('active')
+   newImage.classList.toggle('active')
    if(changedImg){
-        image.src = './assets/SwitcherLight.svg'
+        newImage.src = './assets/SwitcherLight.svg'
         changedImg = false
    }else{
-        image.src = './assets/Switcher.svg'
-        changedImg = true
-    }
+      newImage.src = './assets/Switcher.svg'
+      changedImg = true
+   }
 }
 
